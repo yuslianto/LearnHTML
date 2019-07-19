@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>COntoh Html Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-spacing: 10px
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <table style="width: 100%">
@@ -12,11 +23,21 @@
             <th>Firstname</th>
             <th>Lastname</th>
             <th>Age</th>
+            <th colspan="2">Telephone</th>
         </tr>
         <tr>
-            <th>Yusli</th>
-            <th>Anto</th>
-            <th>24 tahun</th>
+            <td>Anto</td>
+            <td>Yusli</td>
+            <td>24 tahun</td>
+            <td>098596590</td>
+            <td>05689949</td>
+        </tr>
+        <tr>
+            <td>Joko</td>
+            <td>Susilo</td>
+            <td>25 tahun</td>
+            <td>045893498</td>
+            <td>086598457</td>
         </tr>
     </table>
 </body>
