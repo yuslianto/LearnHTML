@@ -29,14 +29,33 @@ body {
   color: var(--txt-secondary);
   padding: 30px;
   margin: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 .title {
-
+  font-size: 2em;
 }
 .icons {
+  margin-top: 10px;
   font-size: 30px;
   color: blue;
 }
 .deskripsi {
-  
+  font-size: .5em;
+  margin-top: 10px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  background-color: var(--bg-primary);
+}
+
+.btn:hover {
+  background-color: aqua;
+  color: antiquewhite;
+  -ms-transform: scaleY(2deg);
+  transform: skewY(2deg);
+  transition: .3s ease-in-out;
 }
